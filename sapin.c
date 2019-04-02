@@ -120,7 +120,7 @@ int main (int argc, char *argv[])
 {
     int size;
     
-    size = *argv[1] - 48;
+    size = atoi(argv[1]);
 
 
 
